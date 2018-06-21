@@ -406,7 +406,7 @@ class KFold(_BaseKFold):
     RepeatedKFold: Repeats K-Fold n times.
     """
 
-    def __init__(self, n_splits=3, shuffle=False,
+    def __init__(self, n_splits=5, shuffle=False,
                  random_state=None):
         super(KFold, self).__init__(n_splits, shuffle, random_state)
 
